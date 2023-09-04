@@ -40,3 +40,14 @@ $ pnpm link --global @tarojs/mini-runner
 ```
 
 4. 运行 `npm run dev:weapp`，在微信开发者工具中即可预览效果；
+
+5. 请注意：
+```
+项目启动时报错：
+taro-vue-router/node_modules/@tarojs/webpack5-runner/dist/plugins/MiniPlugin.js:410
+throw new Error('全局配置缺少 pages 字段，请检查！');
+```
+```
+上述问题解决方案：
+    运行taro -v查看版本，修改package.json，将taro相关版本号全部替换为实际版本。
+```
