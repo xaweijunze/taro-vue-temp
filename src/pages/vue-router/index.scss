@@ -1,0 +1,11 @@
+.tab-box{
+  display: flex;
+  justify-content: flex-start;
+  height: 30px;
+  text-align: center;
+}
+
+.tab-item {
+  width: 90px;
+  border: 1px solid black;
+}
